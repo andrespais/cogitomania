@@ -194,6 +194,25 @@ footer {
     padding: 50px;
 }
 
+/* vista tableta */
+@media (max-width: 768px) {
+    
+    .grid__container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grid__container nav ul li {
+        font-size: 20px;
+    }
+
+    .cogitomania__index {
+        font-size: 80px;
+    }
+
+}
+
+
 /* Estilo de CONTACTO */
 
 .main__contacto {
