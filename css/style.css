@@ -53,14 +53,6 @@ ul {
     margin-right: 20px;
 }
 
-.li__nav:hover {
-    background-color: #ffffff;
-}
-
-.a__nav:hover {
-    color: black;
-}
-
 .cogitomania__index {
     color: white;
     letter-spacing: 10px;
