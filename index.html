@@ -6,11 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./multimedia/20211007_205543_0003.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="./css/style.css" type="text/css">
     <title>Cogitomania</title>
 </head>
 
 <body>
+
     <div class="grid__container">
         <header>
             <img class="icontop" src="./multimedia/20211007_205543_0003.png" alt="">
@@ -24,11 +26,12 @@
                 </ul>
             </nav>
         </header>
+
         <main class="main__index">
             <video class="video__index" src="./multimedia/cogitomania.mp4"  width="100%" autoplay loop></video>
             <section class="section__1">
-                <h1 class="cogitomania__index">Cogitomanía</h1>
-                <p class="lorem__1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque officiis corrupti
+                <h1 class="cogitomania__index wow animate__animated animate__fadeInDown">Cogitomanía</h1>
+                <p class="lorem__1 wow animate__animated animate__fadeInDown">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque officiis corrupti
                     vero? Ipsam quidem
                     porro voluptate nisi repellat at exercitationem totam eius aut eum sed, quibusdam ducimus magni!
                     Eligendi, laudantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam assumenda eum
@@ -70,6 +73,7 @@
                 <a class="buttom__index" href="./contacto.html">Haz click aquí</a>
             </section>
         </main>
+
         <footer>
             <div class="footer__flex">
                 <h3 class="h3__footer">mail: cogitomania@gmail.com</h3>
@@ -78,7 +82,14 @@
                 <h3 class="h3__footer">© Todos los derechos reservados</h3>
             </div>
         </footer>
+
     </div>
+
+    <script src="js/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
 </body>
 
 </html>
